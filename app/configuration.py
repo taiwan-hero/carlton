@@ -8,9 +8,9 @@ class Config(object):
 	"""
 	Configuration base, for all environments.
 	"""
-	DEBUG = False
-	TESTING = False
-	DATABASE_URI = 'sqlite:///application.db'
+	DEBUG = True
+	TESTING = True
+	DATABASE_URI = 'postgresql://localhost/tang'
 	BOOTSTRAP_FONTAWESOME = True
 	SECRET_KEY = "MINHACHAVESECRETA"
 	CSRF_ENABLED = True
